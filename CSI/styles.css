@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+
+    padding: 40px
+}
+#info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+ul {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+img {
+    margin-top: 4em;
+    margin-left: 30em;
+}
+ol {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: large;
+}
+.education-content-1 > ul{
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    gap: 15em;
+}
+
+.education-content-1 > ul > li > p {
+    margin-top: 0px;
+}
+
+.education-content-1 {
+    margin-bottom: 40px;
+}
+
+.experience-content-1 > ul{
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    gap: 17em;
+}
+
+.experience-content-1 > ul > li > p {
+    margin-top: 0px;
+}
+
+.experience-content-1 {
+    margin-bottom: 40px;
+}
+
+
+.activity-content-1 > ul{
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    gap: 19em;
+}
+
+.activity-content-1 > ul > li > p {
+    margin-top: 0px;
+}
+
+.activity-content-2 > ul{
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    gap: 19em;
+}
+
+.activity-content-2 > ul > li > p {
+    margin-top: 0px;
+}
+.activity-content-2 {
+    margin-bottom: 40px;
+}
+
+.section-content > ul > li{
+    display: flex;
+}
+#skill{
+    margin-bottom: 40px;
+}
